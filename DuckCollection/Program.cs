@@ -49,6 +49,12 @@ namespace DuckCollection
             Console.WriteLine("After sort by kind:");
             PrintDucks(ducks);
 
+            DuckComparer duckComparer= new DuckComparer();
+            duckComparer.SortBy = DuckComparer.SortCriteria.KindThenSize;
+            ducks.Sort(duckComparer);
+            Console.WriteLine("After fancy sort:");
+            PrintDucks(ducks);
+
             Console.ReadKey();
         }
     }

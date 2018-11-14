@@ -43,6 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Duck.cs" />
+    <Compile Include="DuckComparer.cs" />
+    <Compile Include="DuckComparer.SortCriteria.cs" />
     <Compile Include="DuckComparerByKind.cs" />
     <Compile Include="DuckComparerBySize.cs" />
     <Compile Include="KindOfDuck.cs" />
