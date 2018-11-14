@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuckCollection", "DuckCollection\DuckCollection.csproj", "{FEBAAF86-7E53-43DD-8464-AF3DAB3041BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEBAAF86-7E53-43DD-8464-AF3DAB3041BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEBAAF86-7E53-43DD-8464-AF3DAB3041BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEBAAF86-7E53-43DD-8464-AF3DAB3041BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEBAAF86-7E53-43DD-8464-AF3DAB3041BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B710FD1A-04D1-4C8B-8E75-5DD4343AB825}
+	EndGlobalSection
+EndGlobal
