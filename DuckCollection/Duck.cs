@@ -6,6 +6,10 @@ namespace DuckCollection
     {
         public int Size;
         public KindOfDuck Kind;
+        public override string ToString()
+        {
+            return $"A {Size} inch {Kind}";
+        }
 
         public void Quack()
         {

@@ -12,7 +12,7 @@ namespace DuckCollection
         {
             foreach (var duck in listOfDucks)
             {
-                Console.WriteLine($"{duck.Size} -inch {duck.Kind}");
+                Console.WriteLine(duck);
             }
 
             Console.WriteLine("End of ducks!");
